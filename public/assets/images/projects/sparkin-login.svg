@@ -1,0 +1,47 @@
+<svg width="800" height="450" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a2e;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#16213e;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#00d4ff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#5a67d8;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="url(#bg)"/>
+
+  <!-- Logo -->
+  <text x="400" y="60" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="url(#accent)" text-anchor="middle">⚡ SparkIn</text>
+
+  <!-- Form Container -->
+  <rect x="250" y="120" width="300" height="250" rx="10" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+
+  <!-- Title -->
+  <text x="400" y="150" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#ffffff" text-anchor="middle">Welcome Back</text>
+  <text x="400" y="170" font-family="Arial, sans-serif" font-size="14" fill="#94a3b8" text-anchor="middle">Sign in to continue to your account</text>
+
+  <!-- Form Fields -->
+  <rect x="270" y="190" width="260" height="30" rx="5" fill="#0f172a" stroke="#334155" stroke-width="1"/>
+  <text x="280" y="210" font-family="Arial, sans-serif" font-size="12" fill="#64748b">name@example.com</text>
+
+  <rect x="270" y="230" width="260" height="30" rx="5" fill="#0f172a" stroke="#334155" stroke-width="1"/>
+  <text x="280" y="250" font-family="Arial, sans-serif" font-size="12" fill="#64748b">••••••••</text>
+
+  <!-- Forgot Password -->
+  <text x="520" y="275" font-family="Arial, sans-serif" font-size="11" fill="#00d4ff" text-anchor="end">I forgot my password?</text>
+
+  <!-- Remember Me -->
+  <rect x="270" y="285" width="12" height="12" fill="#0f172a" stroke="#334155" stroke-width="1"/>
+  <text x="290" y="295" font-family="Arial, sans-serif" font-size="11" fill="#94a3b8">Remember me</text>
+
+  <!-- Button -->
+  <rect x="270" y="315" width="260" height="35" rx="5" fill="url(#accent)"/>
+  <text x="400" y="337" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#ffffff" text-anchor="middle">Sign In</text>
+
+  <!-- Footer -->
+  <text x="400" y="390" font-family="Arial, sans-serif" font-size="12" fill="#64748b" text-anchor="middle">Don't have an account? Sign Up</text>
+  <text x="400" y="420" font-family="Arial, sans-serif" font-size="10" fill="#64748b" text-anchor="middle">© 2025 SparkIn. All rights reserved.</text>
+</svg>

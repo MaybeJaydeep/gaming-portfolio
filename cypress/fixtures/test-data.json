@@ -1,0 +1,90 @@
+{
+    "userProfile": {
+        "name": "Test Developer",
+        "title": "Full Stack Developer",
+        "level": 5,
+        "stats": {
+            "projectsCompleted": 15,
+            "technologiesMastered": 12,
+            "certificationsEarned": 3,
+            "tournamentsPlayed": 8
+        }
+    },
+    "contactForm": {
+        "valid": {
+            "name": "John Doe",
+            "email": "john.doe@example.com",
+            "message": "Hello, I'm interested in your work and would like to discuss a potential collaboration."
+        },
+        "invalid": {
+            "name": "",
+            "email": "invalid-email",
+            "message": ""
+        }
+    },
+    "skills": [
+        {
+            "id": "react",
+            "name": "React",
+            "category": "frontend",
+            "proficiency": 90,
+            "yearsExperience": 3
+        },
+        {
+            "id": "nodejs",
+            "name": "Node.js",
+            "category": "backend",
+            "proficiency": 85,
+            "yearsExperience": 3
+        },
+        {
+            "id": "python",
+            "name": "Python",
+            "category": "ml",
+            "proficiency": 80,
+            "yearsExperience": 2
+        }
+    ],
+    "projects": [
+        {
+            "id": "project-1",
+            "title": "E-commerce Platform",
+            "description": "Full-stack e-commerce solution",
+            "technologies": [
+                "React",
+                "Node.js",
+                "MongoDB"
+            ],
+            "status": "completed",
+            "difficulty": "advanced"
+        },
+        {
+            "id": "project-2",
+            "title": "ML Prediction Model",
+            "description": "Machine learning model for data prediction",
+            "technologies": [
+                "Python",
+                "TensorFlow",
+                "Pandas"
+            ],
+            "status": "completed",
+            "difficulty": "expert"
+        }
+    ],
+    "tournaments": [
+        {
+            "id": "tournament-1",
+            "name": "Regional Gaming Championship",
+            "year": 2023,
+            "placement": "2nd Place",
+            "game": "Strategy Game"
+        },
+        {
+            "id": "tournament-2",
+            "name": "Online Gaming League",
+            "year": 2022,
+            "placement": "1st Place",
+            "game": "FPS Tournament"
+        }
+    ]
+}
